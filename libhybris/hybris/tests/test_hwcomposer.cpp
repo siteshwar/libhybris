@@ -159,7 +159,7 @@ int main(int argc, char **argv)
 	err = hwc_open_1(hwcModule, &hwcDevicePtr);
 	assert(err == 0);
 
-	hwcDevicePtr->blank(hwcDevicePtr, 0, 0);
+	//hwcDevicePtr->blank(hwcDevicePtr, 0, 0);
 
 	uint32_t configs[5];
 	size_t numConfigs = 5;
